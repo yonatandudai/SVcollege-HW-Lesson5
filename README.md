@@ -49,6 +49,9 @@
 
 ## מחשבון המרה:
 
+![calc-image](https://github.com/user-attachments/assets/03d34f10-fca1-4230-8735-f97a7846f859)
+
+
 
 
 
