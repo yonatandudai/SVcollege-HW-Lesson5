@@ -20,7 +20,7 @@ h1 {
     width: 80%;
     max-width: 500px;
     text-align: center;
-    border: 2px solid #4CBB17;
+    border: 2px solid #4CBB17; /* Green border */
     padding: 10px;
     box-sizing: border-box;
 }
@@ -29,7 +29,7 @@ h1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 
 .input-group {
@@ -54,13 +54,23 @@ input, select {
     text-align: center;
 }
 
+.actions {
+    display: flex; /* Arrange button and rates in a row */
+    align-items: center; /* Vertically align button and rates */
+    justify-content: space-between; /* Space between button and rates */
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-inline: 35px;
+    margin-right: 40px;
+}
+
 button {
     width: 150px;
     padding: 25px;
     background-color: #6699CC;
     color: black;
     border: 1px solid #0066b2;
-    border-radius: 0px;
+    border-radius: 0px; /* No rounded corners */
     cursor: pointer;
     font-size: 20px;
     font-weight: bold;
@@ -71,17 +81,10 @@ button:hover {
     color: white;
 }
 
-.actions {
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    margin-top: 10px;
-}
-
 .rates {
     text-align: left;
     font-size: 14px;
-    margin-left: 20px;
+    margin-left: 20px; /* Add spacing between button and rates */
 }
 
 .rates p {
