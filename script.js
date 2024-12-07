@@ -46,7 +46,7 @@ function printNumDetails(num){
 }
 
 //Q5.
-function CheckLetters(str){
+function checkLetters(str){
     let firstLetter = str.charAt(0);
     let lastLetter = str.charAt(str.length-1);
     if (firstLetter == lastLetter){
@@ -71,14 +71,13 @@ function checkString(myStr){
 }
 
 
-
-
 //main
 printMinimalNum(8, 5);
 stringsLongerThanThree("aba", "gda", "vaza", "chati");
 //checkIfAExists();
 printNumDetails(4);
-CheckLetters("hanal'eh");
+checkLetters("hanal'eh");
 checkString("st*ar");
 checkString("yonatandu@outlook");
 checkString("124₪");
+
