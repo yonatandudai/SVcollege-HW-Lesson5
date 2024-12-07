@@ -1,10 +1,12 @@
+"use strict"
+
 const exchangeRates = {
     eur: 4.2,
     usd: 3.9,
     gbp: 5.0,
 };
 
-document.getElementById('convert-btn').addEventListener('click', () => {
+function calculate_conversion() {
     const amount = document.getElementById('amount').value;
     const currency = document.getElementById('currency').value;
 
@@ -13,11 +15,6 @@ document.getElementById('convert-btn').addEventListener('click', () => {
         return;
     }
 
-    if (!exchangeRates[currency]) {
-        alert("Invalid currency type selected.");
-        return;
-    }
-
     const result = (amount / exchangeRates[currency]).toFixed(2);
-    alert(`Converted amount: ${result} ${currency.toUpperCase()}`);
-});
+    window.alert(`Converted amount: ${result} ${currency.toUpperCase()}`);
+}
